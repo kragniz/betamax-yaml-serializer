@@ -13,7 +13,10 @@ setuptools.setup(
 
     py_modules=['betamax_yaml_serializer'],
 
-    install_requires=['betamax'],
+    install_requires=[
+        'betamax',
+        'PyYAML',
+    ],
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
