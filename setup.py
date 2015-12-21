@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='betamax-yaml-serializer',
-    version='0.1.1',
+    version='0.1.2',
     url='https://github.com/kragniz/betamax-yaml-serializer',
 
     author='Louis Taylor',
@@ -12,6 +12,8 @@ setuptools.setup(
     long_description=open('README.rst').read(),
 
     py_modules=['betamax_yaml_serializer'],
+
+    requires=['PyYAML'],
 
     install_requires=[
         'betamax',
